@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>jasonfried.info - Blog</title>
+    <subtitle>personal blog, works, and projects</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://jasonfried.info/blog/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://jasonfried.info/blog/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-11-17T22:20:49+00:00</updated>
+    <id>https://jasonfried.info/blog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>I&#x27;m going to write</title>
+        <published>2025-11-17T22:20:49+00:00</published>
+        <updated>2025-11-17T22:20:49+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://jasonfried.info/blog/a-start/"/>
+        <id>https://jasonfried.info/blog/a-start/</id>
+        
+        <content type="html" xml:base="https://jasonfried.info/blog/a-start/">&lt;p&gt;I don&#x27;t intend to start a blog but I do intend to write. I&#x27;ve been writing sci-fi&#x2F;fantasy stories for many years now. I started out writing stories for roleplaying games. Many of those games never got run, or died due to scheduling issues of players or me the DM&#x2F;GM.  I think one I have been working on for many years would make a great novel, but I don&#x27;t know if I can actually write a novel.  So I&#x27;m going to release a web novel or at least try too.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
