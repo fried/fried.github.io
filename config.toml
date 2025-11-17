@@ -1,7 +1,8 @@
 # The URL the site will be built for
 base_url = "https://jasonfried.info"
 
-title = "Jason Fried"
+title = "jasonfried.info"
+description = "personal blog, works, and projects"
 theme = "goyo"
 
 # Whether to automatically compile all Sass files in the sass directory
@@ -18,6 +19,8 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 nav = [
-    { name = "Blog", url = "/blog", type = "url", icon = "fa-solid fa-blog" },
 	{ name = "Novels", url = "/wn", type = "url", icon = "fa-solid fa-book" },
+	{ name = "Blog", url = "/blog", type = "url", icon = "fa-solid fa-blog" },
 ]
+footer_html = "<small>Copyright &copy 2025 - Jason Fried</small>"
+edit_url = "https://github.com/fried/fried.github.io"
