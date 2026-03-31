@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Stories — {{ config.title }}{% endblock %}
+
+{% block content %}
+<div class="content-wrap">
+  <section class="listing stories-listing">
+    <div class="section-header">
+      <h1>Stories</h1>
+      <p class="section-desc">Long-form fiction, written one chapter at a time.</p>
+    </div>
+
+    {% for subsection in section.subsections %}
+      {% set story = get_section(path=subsection) %}
+      <div class="story-group">
+        <h2><a href="{{ story.permalink }}">{{ story.title }}</a></h2>
+        {% if story.description %}
+        <p class="story-desc">{{ story.description }}</p>
+        {% endif %}
+        <ol class="chapter-list">
+          {% for page in story.pages %}
+          <li>
+            <a href="{{ page.permalink }}">{{ page.title }}</a>
+          </li>
+          {% endfor %}
+        </ol>
+      </div>
+    {% endfor %}
+  </section>
+</div>
+{% endblock %}

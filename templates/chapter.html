@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} — {{ page.ancestors | last }} — {{ config.title }}{% endblock %}
+
+{% block content %}
+<div class="content-wrap">
+  <article class="post chapter">
+    <header class="post-header">
+      {% if page.ancestors | length > 0 %}
+        {% set story_path = page.ancestors | last %}
+        {% set story = get_section(path=story_path) %}
+        <a href="{{ story.permalink }}" class="back-link">← {{ story.title }}</a>
+      {% endif %}
+      <h1>{{ page.title }}</h1>
+      {% if page.description %}
+      <p class="chapter-subtitle">{{ page.description }}</p>
+      {% endif %}
+    </header>
+    <div class="post-content">
+      {{ page.content | safe }}
+    </div>
+
+    <nav class="chapter-nav">
+      {% if page.lower %}
+      <a href="{{ page.lower.permalink }}" class="prev">← {{ page.lower.title }}</a>
+      {% endif %}
+      {% if page.higher %}
+      <a href="{{ page.higher.permalink }}" class="next">{{ page.higher.title }} →</a>
+      {% endif %}
+    </nav>
+  </article>
+</div>
+{% endblock %}

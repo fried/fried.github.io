@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} — Stories — {{ config.title }}{% endblock %}
+
+{% block content %}
+<div class="content-wrap">
+  <section class="listing story-detail">
+    <div class="section-header">
+      <h1>{{ section.title }}</h1>
+      {% if section.description %}
+      <p class="section-desc">{{ section.description }}</p>
+      {% endif %}
+    </div>
+
+    {% if section.content %}
+    <div class="story-intro">
+      {{ section.content | safe }}
+    </div>
+    {% endif %}
+
+    <h2 style="font-size: 1.15rem; margin-bottom: 1rem; color: var(--text-muted); font-family: var(--font-sans); font-weight: 600;">Chapters</h2>
+    <div class="story-group" style="margin-bottom: 0;">
+      <ol class="chapter-list" style="border-top: none; padding-top: 0;">
+        {% for page in section.pages %}
+        <li>
+          <a href="{{ page.permalink }}">{{ page.title }}</a>
+          {% if page.description %}
+          <span class="chapter-desc">— {{ page.description }}</span>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </section>
+</div>
+{% endblock %}

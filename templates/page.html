@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} — {{ config.title }}{% endblock %}
+
+{% block content %}
+<div class="content-wrap">
+  <article class="post">
+    <header class="post-header">
+      {% if page.ancestors and page.ancestors | length > 0 %}
+      <a href="{{ get_url(path='@/blog/_index.md') }}" class="back-link">← Back to blog</a>
+      {% endif %}
+      <h1>{{ page.title }}</h1>
+      {% if page.date %}
+      <time datetime="{{ page.date }}">{{ page.date | date(format="%B %e, %Y") }}</time>
+      {% endif %}
+    </header>
+    <div class="post-content {% if page.extra.resume is defined %}resume{% endif %}">
+      {{ page.content | safe }}
+    </div>
+  </article>
+</div>
+{% endblock %}

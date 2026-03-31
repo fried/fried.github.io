@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}{{ config.title }} — {{ config.description }}{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="hero-inner">
+    <p class="hero-label">Catheys Valley, California</p>
+    <h1>Jason Fried</h1>
+    <p class="hero-intro">I raise cattle and chickens on a small ranch in the Sierra foothills. I write sometimes — about the land, about life, about whatever catches my attention.</p>
+  </div>
+</section>
+
+<div class="home-sections">
+  {% set blog = get_section(path="blog/_index.md") %}
+  {% if blog.pages | length > 0 %}
+  <a href="{{ get_url(path='@/blog/_index.md') }}" class="section-card">
+    <span class="card-icon">✍️</span>
+    <h3>Blog</h3>
+    <p>Writing about technology, programming, AI, and the occasional story.</p>
+    <span class="card-link">Read posts →</span>
+  </a>
+  {% endif %}
+
+  <a href="{{ get_url(path='@/stories/_index.md') }}" class="section-card">
+    <span class="card-icon">📖</span>
+    <h3>Stories</h3>
+    <p>Longer fiction I'm working on, published chapter by chapter.</p>
+    <span class="card-link">Read stories →</span>
+  </a>
+
+  <a href="{{ get_url(path='@/resume.md') }}" class="section-card">
+    <span class="card-icon">📋</span>
+    <h3>Resume</h3>
+    <p>My background — from tech to cattle, and everything in between.</p>
+    <span class="card-link">View resume →</span>
+  </a>
+</div>
+{% endblock %}
