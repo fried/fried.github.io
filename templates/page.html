@@ -6,7 +6,7 @@
 <div class="content-wrap">
   <article class="post">
     <header class="post-header">
-      {% if page.ancestors and page.ancestors | length > 0 %}
+      {% if "blog" in page.path %}
       <a href="{{ get_url(path='@/blog/_index.md') }}" class="back-link">← Back to blog</a>
       {% endif %}
       <h1>{{ page.title }}</h1>
