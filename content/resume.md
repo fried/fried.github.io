@@ -8,44 +8,89 @@ path = "resume"
 
 # Jason Fried
 
-**Catheys Valley, California**
+**Software Engineer** | Catheys Valley, California  
+📧 me@jasonfried.info | 🌐 [jasonfried.info](https://jasonfried.info) | 🔗 [LinkedIn](https://www.linkedin.com/in/jasonandrewfried/)
 
 ---
 
 ## About
 
-Rancher, writer, builder of things. I run a small cattle and poultry operation in the Sierra Nevada foothills of California. I believe in working with my hands, thinking clearly, and writing things down.
+Software engineer at Meta focused on build infrastructure, developer tooling, and Python stewardship. Over 14 years at Meta/Facebook spanning operations, production engineering, and software engineering. Passionate about Python, systems reliability, and building infrastructure at scale.
+
+---
 
 ## Experience
 
-### Owner & Operator — Infinite Ranch LLC
-*Catheys Valley, CA — 2022–Present*
+### Meta (Facebook)
+**Full-time · Since 2011**
 
-- Manage a diversified small ranch raising cattle and laying hens
-- Handle all aspects of operations: animal husbandry, pasture management, equipment maintenance, and direct-to-consumer sales
-- Built and maintain a local egg delivery business serving the Mountain View community
-- Manage ranch finances, regulatory compliance, and partnership tax filings
+**Software Engineer**  
+*Feb 2022 – Present · Remote*
 
-### Previous Work
+- Build infrastructure and developer tooling using BUCK/Starlark build system
+- Contributing to Python ecosystem improvements, including free-threading initiatives
 
-- Background in technology, business operations, and project management
-- Experience building and running small businesses
-- Self-taught in livestock management, fencing, equipment repair, and rural property maintenance
+**Software Engineer**  
+*Sep 2015 – Mar 2023 · Menlo Park, California*
 
-## Skills
+- Stewarding Python at Facebook
+- Drove Python language strategy and tooling across the organization
 
-- **Ranch Operations:** Cattle management, poultry husbandry, pasture rotation, hay production
-- **Equipment:** Tractor operation, welding, fencing, basic mechanical repair
-- **Business:** Financial management, direct sales, regulatory compliance, partnership accounting
-- **Technical:** Comfortable with technology, data management, web development
-- **Writing:** Long-form essays, fiction, technical documentation
+**Production Engineer**  
+*Jan 2014 – Sep 2015 · Menlo Park, CA*
+
+- Led Python 2 to 3 conversion efforts
+- Created the service used to ship blobs around the infrastructure, including Instagram and facebook.com
+- Worked on system provisioning automation
+
+**Operations Engineer**  
+*Oct 2011 – Jan 2014 · Menlo Park, CA*
+
+- Kept facebook.com up and running
+- Site reliability and infrastructure operations at scale
+
+---
+
+### Deloitte Consulting
+**2 yrs 6 mos**
+
+**Consultant**  
+*Dec 2009 – Oct 2011 · Greater Hattiesburg Area*
+
+**Senior Analyst**  
+*May 2009 – Dec 2009*
+
+- System support for the Hattiesburg Development Center
+
+---
+
+### BearingPoint Inc.
+**Senior Technology Analyst**  
+*Jun 2006 – May 2009 · 3 yrs*
+
+- Infrastructure & application development, mostly server support and writing management tools
+- Required specialty in a wide range of diverse fields
+
+---
 
 ## Education
 
-Learning by doing, mostly. Books, mentors, and a willingness to make mistakes.
+### Southeastern Louisiana University
+**BS, Computer Science** · 2000 – 2006
 
-## Contact
+- Summer 2005 President's List
+- Chapter President of ACM Student Chapter (Senior Year)
+- Systems Administrator for ACM's local Unix server (2002–2006)
+- Organized SLUgo, a 24-hour gaming convention on campus (2005)
 
-Available at [jasonfried.info](https://jasonfried.info).
+---
+
+## Technical Skills
+
+**Languages:** Python, Cython, C/C++, Lua, Rust, Shell </br>
+**Systems:** Linux, Build Systems, Developer Infrastructure, Site Reliability  
+**Tools:** Claude, Buck2, Mercurial, Git, Visual Studio Code
+
+
 
 </div>
