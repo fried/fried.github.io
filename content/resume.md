@@ -106,12 +106,4 @@ Software engineer with over 25 years in technology — from running a dial-up IS
 - Systems Administrator for ACM's local Unix server (2002–2006)
 - Organized SLUgo, a 24-hour gaming convention on campus (2005, 2006)
 
----
-
-## Technical Skills
-
-**Languages:** Python, Cython, C/C++, Lua, Rust, Shell  
-**Systems:** Linux, Build Systems, Developer Infrastructure, Site Reliability  
-**Tools:** Buck2, Mercurial, Git, Visual Studio Code
-
 </div>
