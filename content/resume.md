@@ -8,8 +8,9 @@ path = "resume"
 
 # Jason Fried
 
-**Software Engineer** | Catheys Valley, California  
-📧 me@jasonfried.info | 🌐 [jasonfried.info](https://jasonfried.info) | 🔗 [LinkedIn](https://www.linkedin.com/in/jasonandrewfried/)
+**Software Engineer** | Catheys Valley, California
+
+📧 me@jasonfried.info | 🌐 jasonfried.info | 🔗 linkedin.com/in/jasonandrewfried
 
 ---
 
@@ -22,9 +23,11 @@ Software engineer with over 25 years in technology — from running a dial-up IS
 ## Experience
 
 ### Meta (Facebook)
-**Full-time · Since 2011 · 14 years**
 
-**Software Engineer — Dev Infrastructure: Python Language**  
+**2011–Present · 14 years**
+
+#### Software Engineer — Dev Infrastructure: Python Language
+
 *Sep 2015 – Present · Menlo Park, CA (Remote after 2022)*
 
 - **Stewarded Python at Facebook/Meta**, owning language strategy, runtime upgrades, and tooling for one of the world's largest Python deployments
@@ -36,14 +39,16 @@ Software engineer with over 25 years in technology — from running a dial-up IS
 - **Recognized as Meta's asyncio expert**, the authority on async Python patterns, performance, and debugging across the company's service infrastructure
 - Own build infrastructure and developer tooling on the Buck2/Starlark build system, directly impacting developer velocity across the engineering organization
 
-**Production Engineer**  
+#### Production Engineer
+
 *Jan 2014 – Sep 2015 · Menlo Park, CA*
 
 - **Primary driver of Meta's Python 2 to 3 migration**, leading the multi-year effort to modernize one of the world's largest Python codebases across thousands of services and millions of lines of code
 - Designed and built FBPKG, the blob shipping service used to distribute binary artifacts across Meta's global infrastructure, serving Instagram, facebook.com, and internal systems
 - Developed system provisioning automation for fleet-scale deployments
 
-**Operations Engineer**  
+#### Operations Engineer
+
 *Oct 2011 – Jan 2014 · Menlo Park, CA*
 
 - Site reliability and infrastructure operations for facebook.com during a period of rapid growth — from 800M to over one billion monthly active users
@@ -53,15 +58,18 @@ Software engineer with over 25 years in technology — from running a dial-up IS
 ---
 
 ### Deloitte Consulting
+
 **May 2009 – Oct 2011 · 2 yrs 6 mos**
 
-**Consultant**  
+#### Consultant
+
 *Dec 2009 – Oct 2011*
 
 - Infrastructure deployments, version control systems, and issue tracking systems for enterprise clients
 - Bridged the gap between operations and development teams on large-scale consulting engagements
 
-**Senior Analyst**  
+#### Senior Analyst
+
 *May 2009 – Dec 2009*
 
 - Internal cloud support and system administration
@@ -70,7 +78,9 @@ Software engineer with over 25 years in technology — from running a dial-up IS
 ---
 
 ### BearingPoint Inc.
-**Senior Technology Analyst**  
+
+#### Senior Technology Analyst
+
 *Jun 2006 – May 2009 · 3 yrs*
 
 - Introduced to virtualization with VMware vSphere, driving a consolidation that grew the managed environment from 7 physical machines to hundreds of VMs across a handful of physical hosts
@@ -79,8 +89,22 @@ Software engineer with over 25 years in technology — from running a dial-up IS
 
 ---
 
+### Southeastern Louisiana University — Administrative Computing Services
+
+#### Network Technician
+
+*2003–2006 · Hammond, LA*
+
+- Installed and maintained equipment in the campus data center
+- Automated routine administration tasks and scripted network statistics gathering/graphing
+- Systems testing and validation for new infrastructure deployments
+
+---
+
 ### East Baton Rouge Parish Schools
-**Systems Administrator**  
+
+#### Systems Administrator
+
 *1999–2000 · High School*
 
 - Administered network infrastructure and systems for a student/teacher dial-up ISP operated by East Baton Rouge Parish Schools, located in the office of Scotlandville Magnet High School
@@ -99,11 +123,13 @@ Software engineer with over 25 years in technology — from running a dial-up IS
 ## Education
 
 ### Southeastern Louisiana University
-**BS, Computer Science** · 2000 – 2006
+
+**BS, Computer Science** · 2000–2006
 
 - Summer 2005 President's List
-- Chapter President of ACM Student Chapter (Senior Year)
-- Systems Administrator for ACM's local Unix server (2002–2006)
+- Chapter President, ACM Student Chapter (Senior Year)
+- Systems Administrator, ACM Unix server (2002–2006)
+- ACM International Collegiate Programming Contest (ICPC) — Regionals 2001–2004, highest-ranking SLU team each year
 - Organized SLUgo, a 24-hour gaming convention on campus (2005, 2006)
 
 </div>
